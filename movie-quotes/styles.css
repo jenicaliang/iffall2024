@@ -1,0 +1,40 @@
+body {
+    width: 500px;;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: monospace;
+    text-align: left;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.name {
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.quote {
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.desc {
+    font-style: italic;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.action {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
