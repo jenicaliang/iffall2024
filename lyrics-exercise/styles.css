@@ -1,0 +1,117 @@
+body {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    background-color: rgb(37, 48, 78);
+    color: white;
+}
+
+h1 {
+    margin: auto;
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+table {
+    width: 50vw;
+    margin: auto;
+    align-items: center;
+    text-align: left;
+}
+
+th, td {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    vertical-align: top;
+}
+
+footer {
+    padding-top: 80px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+.blank_row
+{
+    height: 20px !important; /* overwrites any other rules */
+}
+
+.center-cropped {
+    width: auto;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+.songname {
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+.label {
+    background-color: rgb(16, 23, 42);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(73, 87, 127);
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+.label_2 {
+    background-color: rgb(126, 117, 177);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(16, 23, 42);;
+    border-radius: 20px;
+    width: auto;
+    margin: auto;
+   text-align: center; 
+   font-weight: 900;
+}
+
+/* link colors */
+a:link {
+  color: rgb(0, 225, 255); 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 225, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 225, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(0, 225, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
