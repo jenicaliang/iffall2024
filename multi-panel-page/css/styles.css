@@ -1,0 +1,151 @@
+html {background-color: rgb(15, 14, 13)}
+
+body {
+    font-family: "Archivo Narrow", sans-serif; 
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 188px;
+    background-color: red;
+    background-image: url('../images/main-background.jpg');
+    background-size: cover;
+    color: white;
+}   
+
+h1 {
+    font-size: 80px; 
+    margin: 0;
+    margin-bottom: 16px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 30px; 
+    margin: 0;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 1;
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 39px;
+    text-align: center;
+}
+
+/* Styling for main section */
+
+section.main {
+    background-color: rgb(24, 22, 20);
+}
+
+div.section-main {
+    margin: auto;
+    padding-bottom: 39px;
+    width: 960px;
+}
+
+.main-text {
+    margin: auto;
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 1.39em;
+}
+
+img.photo {
+    float: right;
+    padding: 0 0 38px 44px;
+}
+
+/* Table styling */
+
+section.table {
+    height: 688px;
+    background-color: rgb(34, 31, 28);
+}
+
+table {
+    padding-top: 0;
+    border-spacing: 0;
+    padding: 0;
+    margin: auto;
+    width: 960px;
+}
+
+.id {
+    float: left;
+    width: 200px;
+    height: 150px;  
+    display: flex;
+    overflow: hidden;
+}
+
+td {
+    padding: 0;
+    padding-bottom: 41px;
+    vertical-align: top;
+}
+
+td > div.title, div.desc {
+    padding-left: 12px;
+    padding-right: 22px;
+}
+
+td.image {
+    padding: 0;
+    width: 200px;
+}
+
+div.title {
+    padding: 0;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+div.desc {
+    font-size: 18px;
+    line-height: 1.37;
+}
+
+td.text {
+    width: 281px;
+}
+
+/* Styling for last section */
+
+section.last {
+    background-color: rgb(24, 22, 20);
+    height: 408px;
+}
+
+div.section-last {
+    margin: auto;
+    padding-bottom: 39px;
+    text-align: center;
+    width: 720px;
+}
+
+div.section-last > p {
+    line-height: 1.39;
+    margin: 0;
+    font-size: 26px;
+}
+
+/* Styling for footer */
+
+footer {
+    background-color: rgb(15, 14, 13);
+}
+
+div.footer {
+    font-size: 18px;
+    margin: auto;
+    padding: 41px;
+    width: 959px;
+ }
