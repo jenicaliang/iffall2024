@@ -30,7 +30,7 @@ html {
 /* Styling for links */
 
 a {
-    color: black;
+    color: rgb(65, 27, 2);
     text-decoration: none;
 }
 
@@ -109,6 +109,7 @@ strong {
     font-family: "Jua", serif;
     text-align: center;
     font-size: 42px;
+    margin-top: 40px;
     margin-bottom: 0px;
     padding-right: 10px;
     padding-left: 10px;
