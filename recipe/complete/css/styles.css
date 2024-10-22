@@ -140,8 +140,8 @@ ul {
 .label th {
     flex-wrap: wrap;
     padding: 2px;
-    padding-left: 1.2vw;
-    padding-right: 1.2vw;
+    padding-left: 5px;
+    padding-right: 5px;
     width: auto;
     font-size: 24px;
     font-weight: normal;
@@ -166,7 +166,7 @@ table.details {
 div.details {
     background-color: rgb(253, 145, 161);
     border-radius: 10px;
-    padding: 1vh 2vw 1vh 2vw;
+    padding: 3px 7px 3px 7px;
 }
 
 /* Styling for introductory description */
@@ -296,8 +296,8 @@ div.details {
 .label-2 th {
     flex-wrap: wrap;
     padding: 2px;
-    padding-left: 1.2vw;
-    padding-right: 1.2vw;
+    padding-left: 5px;
+    padding-right: 5px;
     width: auto;
     font-size: 24px;
     font-weight: normal;
