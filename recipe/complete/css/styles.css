@@ -1,0 +1,430 @@
+
+html {
+    background-color: rgb(255, 243, 226);
+}
+
+.scroll-to-top {
+    text-align: center;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    @media (max-width: 800px) {
+        display: none;
+    }
+}
+
+/* Styling for scroll to top */
+
+.scroll-to-top p {
+    margin: 10px;  
+}
+
+.scroll-to-top .fa-solid {
+    font-size: 6em;
+}
+
+.fa-solid {
+    font-size: 0.8em;
+}
+
+/* Styling for links */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.color{
+    color: rgb(253, 145, 161);
+    text-decoration: none;
+  }
+
+header {
+    @media (max-width: 800px) {
+        padding-top: 0px;
+    }
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    @media (max-width: 800px) {
+        border-radius: 0px;
+        width: 100%;
+    }
+}
+
+img.icon {
+    display: block;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-sizing: border-box;
+    @media (max-width: 800px) {
+        border-radius: 0px;
+        width: 100%;
+    }
+}
+  
+body {
+    background-color: white;
+    font-family: "Gaegu", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(65, 27, 2);
+    margin: auto;
+    max-width: 800px;
+    padding: 50px;
+    @media (max-width: 800px) {
+        padding: 0px;
+        width: 100%;
+    }
+}
+
+strong {
+    color: rgb(212, 57, 80);
+    font-family: "Playpen Sans", cursive;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.accent-color {
+    color: rgb(212, 57, 80);
+}
+
+.lace-border {
+    background-image: url(images/border.png); 
+    background-repeat: repeat-x;
+}
+
+.title {
+    color: rgb(65, 27, 2);
+    font-family: "Jua", serif;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    @media (max-width: 450px) {
+        margin: auto;
+        margin-top: 40px;
+        font-size: 35px;
+        width: 90%;
+    }
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+/* Styling for recipe post information */
+
+.label table {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    @media (max-width: 450px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.label th {
+    flex-wrap: wrap;
+    padding: 2px;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    width: auto;
+    font-size: 24px;
+    font-weight: normal;
+    @media (max-width: 450px) {
+        padding-left: 0;
+        display: block;
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+/* Styling for jump-to buttons */
+
+table.details {
+    border-collapse: separate;
+    border-spacing: 2vw 0;
+    margin: auto;
+    padding: 1vh 2vw;
+    text-align: center;
+}
+
+div.details {
+    background-color: rgb(253, 145, 161);
+    border-radius: 10px;
+    padding: 1vh 2vw 1vh 2vw;
+}
+
+/* Styling for introductory description */
+
+.description {
+    margin: auto;
+    padding: 30px;
+    width: 75%;
+}
+
+/* Styling for spotlight summary */
+
+.spotlight {
+    background-color:  rgb(255, 236, 236);
+    border-radius: 10px;
+    border-bottom: solid 7px rgb(253, 145, 161);
+    margin-top: 20px;
+    padding: 20px 70px;
+    @media (max-width: 800px) {
+        border-radius: 0px;
+    }
+}
+
+.spotlight > h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.spotlight > ul {
+    padding: 20px 0px 10px 0px;
+    margin: 0;
+    list-style: none;
+}
+
+/* Styling for main recipe body */
+
+.condensed-milk th {
+    width: auto;
+    padding: 5px;
+    @media (max-width: 800px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+}
+
+.condensed-milk img {
+    margin: auto;
+    height: 340px;
+    @media (max-width: 800px) {
+        height: auto;
+    }
+}
+
+.prepare-batter {
+    margin: auto;
+}
+
+.prepare-batter th {
+    width: auto;
+    padding: 5px;
+    @media (max-width: 800px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+}
+
+.prepare-batter img {
+    margin: auto;
+    height: 200px;
+    @media (max-width: 800px) {
+        width: 100%;
+    }
+}
+
+.main {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 95%;
+}
+
+/* Styling for quick look recipe card top section */
+
+.quick-look-top {
+    background-color: rgb(255, 236, 236);
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.quick-look-top img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.quick-look-top h1 {
+    line-height: 1;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.quick-look-top h2 {
+    margin: 0;
+}
+
+.quick-look-top p {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.label-2 table {
+    margin: auto;   
+    text-align: center;
+    padding-top: 10px;
+    @media (max-width: 450px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.label-2 th {
+    flex-wrap: wrap;
+    padding: 2px;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    width: auto;
+    font-size: 24px;
+    font-weight: normal;
+    @media (max-width: 450px) {
+        padding-left: 0;
+        display: block;
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+
+.prep-time {
+    margin: auto;
+}
+
+.prep-time th {
+    margin: auto;
+    padding: 10px;
+}
+
+/* Styling for quick look recipe card main section */
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.quick-look {
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    border: solid 10px rgb(255, 236, 236);
+    padding: 20px;
+    @media (max-width: 450px) {
+        border: 5%;
+    }
+}
+
+.ingredients {
+    margin-top: 40px;
+}
+
+.ingredients-list {
+    padding: 20px 10px 10px;
+}
+
+/* Styling for checkboxes */
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 100%;
+  }
+  
+  
+  /* When the checkbox is checked, add a red background */
+  .container input:checked ~ .checkmark {
+    background-color: rgb(212, 57, 80);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+.instructions li {
+    margin: 20px 0;
+}
