@@ -157,16 +157,16 @@ ul {
 
 table.details {
     border-collapse: separate;
-    border-spacing: 2vw 0;
+    border-spacing: 10px 0;
     margin: auto;
-    padding: 1vh 2vw;
+    padding: 7px 0 7px;
     text-align: center;
 }
 
 div.details {
-    background-color: rgb(253, 145, 161);
+   background-color: rgb(253, 145, 161);
     border-radius: 10px;
-    padding: 3px 7px 3px 7px;
+    padding: 4px 15px;
 }
 
 /* Styling for introductory description */
@@ -316,7 +316,7 @@ div.details {
 
 .prep-time th {
     margin: auto;
-    padding: 10px;
+    padding: 7px;
 }
 
 /* Styling for quick look recipe card main section */
