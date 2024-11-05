@@ -1,0 +1,44 @@
+html {
+    background-color: rgb(255, 238, 241);
+}
+
+body {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.desktop {
+    display: block;
+}
+
+.desktop img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 45%;
+}
+
+.mobile {
+    display: block;
+}
+
+.mobile img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 25%; 
+}
