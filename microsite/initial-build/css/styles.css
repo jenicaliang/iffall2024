@@ -1,0 +1,374 @@
+html, body {
+    background-color: rgb(250, 219, 229);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 15px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 390, 'wdth' 100;
+    line-height: 22px;
+    /* background-image: repeating-linear-gradient(
+  90deg,
+  #ffffff,
+  #ffffff 20px,
+  #FADBE5 20px,
+  #FADBE5 30px
+);
+*/
+
+header {
+    width: 100%;
+    text-align: center; 
+    background-color: rgb(234, 110, 150);
+    color: white;
+}
+
+#btn_logo {
+    display: inline-block;
+    margin: auto;
+}
+
+#btn_logo img {
+    width: 120px;
+    padding: 0;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(234, 110, 150);
+}
+
+/* main nav styles */
+
+nav#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 500, 'wdth' 100;
+}
+
+nav#main-nav ul li{
+    display:inline-block; 
+    padding:0 7px; 
+    position:relative;
+  }
+  ul li:not(:last-child)::after{
+    content:""; 
+    border:1px solid #000000;
+    border-width: 1.5px 1.5px 0 0;
+    position:absolute; 
+    right:-3px; 
+    top:0; 
+    height:100%;
+  }
+
+nav#main-nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: .2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+nav#main-nav ul li a.selected {
+    color: black;
+    transition: 0.25s ease;
+}
+
+nav#main-nav ul li a:hover {
+    color: black;
+    transition: 0.25s ease;
+}
+
+/* main nav styles end */
+
+.main {
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 100px;
+    width: 850px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+    text-align: center;
+    line-height: 42px;
+    font-size: 35px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 550, 'wdth' 100;
+    padding: 10px;
+    color: rgb(234, 110, 150);
+}
+
+.intro-text {
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 67%;
+    color: rgb(234, 110, 150);
+}
+
+.intro-text p {
+    margin-bottom: 20px;
+}
+
+.about {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 67%;
+    padding: 40px;
+}
+ 
+/* button styles */
+  .pink {
+    background-color: rgb(234, 110, 150);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 450, 'wdth' 100;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    display: block;
+    transition: 0.25s ease;
+  }
+
+  .pink:hover{
+    background-color: black;
+    transition: 0.25s ease;
+  }
+
+  footer {
+    text-align: center;
+    margin: auto 0;
+    margin-bottom: 40px;
+  }
+
+/* styles for character page */
+
+table {
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.character {
+    position: relative;
+}
+
+.heart {
+   position: absolute;
+}
+
+.heart-left {
+    right: 50px;
+    top: 95px;
+}
+
+.heart-right {
+    left: 70px;
+    top: 80px;
+}
+
+.heart img {
+    width: 140px;
+}
+
+.text {
+    position: absolute;
+    display: inline-block;
+    top: 45px;
+    right: 21px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    line-height: 16px;
+    font-size: 14px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 500, 'wdth' 100;
+
+}
+
+.mia-png img {
+    position: relative;
+    left: 30px;
+    height: 220px;
+    width: auto;
+    z-index: 1;
+}
+
+.chelsea-png img {
+    position: relative;
+    right: 20px;
+    top: 10px;
+    height: 200px;
+    width: auto;
+    z-index: 1;
+}
+
+.rico-png img {
+    position: relative;
+    left: 30px;
+    height: 230px;
+    width: auto;
+    z-index: 1;
+}
+
+.layla-png img {
+    position: relative;
+    right: 20px;
+    height: 210px;
+    width: auto;
+    z-index: 1;
+}
+
+.emma-png img {
+    position: relative;
+    left: 20px;
+    height: 210px;
+    width: auto;
+    z-index: 1;
+}
+
+.bg-box-right {
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.bg-box-left {
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.mia {
+    background-color: rgb(243, 168, 187);
+    text-align: left;
+}
+
+.mia h1 {
+    text-align: left;
+    
+}
+
+.chelsea {
+    background-color: rgb(186, 226, 240);
+    text-align: right;
+}
+
+.chelsea h1 {
+    text-align: right;
+}
+
+.rico {
+    background-color: rgb(252, 212, 117);
+    text-align: left;
+}
+
+.rico h1 {
+    text-align: left;
+}
+
+.layla {
+    background-color: rgb(187, 179, 216);
+    text-align: right;
+}
+
+.layla h1 {
+    text-align: right;
+}
+
+.emma {
+    background-color: rgb(214, 233, 195);
+    text-align: left;
+}
+
+.emma h1 {
+    text-align: left;
+}
+
+td h1 {
+    color: black;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+td p {
+    padding: 0;
+    margin: 0;
+}
+
+/* styles for songs page */
+
+.discography {
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.discography td {
+    margin: 0;
+    padding: 10px;
+}
+
+tr .title {
+    text-align: center;
+    background-color: rgb(250, 219, 229);
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+/* styles for media page */
+
+.media {
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse; 
+    border-spacing: 1em;
+    vertical-align: top;
+    width: 75%;
+}
+
+.media h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#second, #forth {
+    display:none;
+}
