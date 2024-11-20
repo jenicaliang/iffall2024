@@ -1,0 +1,524 @@
+html, body {
+    background-color: rgb(250, 219, 229);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 390, 'wdth' 100;
+    line-height: 22px;
+}
+
+header {
+    width: 100%;
+    text-align: center; 
+    background-color: rgb(234, 110, 150);
+    color: white;
+}
+
+#btn_logo {
+    display: inline-block;
+}
+
+#btn_logo img {
+    width: 140px;
+    padding: 0px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(234, 110, 150);
+}
+
+/* main nav styles */
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.hamburger-menu {
+    display: none;
+    font-size: 70px;
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    margin-left: 250px;
+    top: 30px;
+}
+
+.nav-bar.show {
+    display: none;
+}
+  
+.nav-bar a {
+   display: inline-block;
+   margin-right: -4px;  /* inline-block gap fix */
+   color: #fff;
+   font-size: 18px;
+   transition: 0.3s linear;
+   z-index: 9;
+   font-size: 20px;
+   font-family: "fredoka-variable",sans-serif;
+   font-variation-settings: 'wght' 500, 'wdth' 100;
+   overflow: hidden;
+  }
+  
+.nav-bar .icon {
+    display: none;
+  }
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-bar ul li{
+    display:inline-block; 
+    padding:0 7px; 
+    position:relative;
+  }
+  ul li:not(:nth-last-child(-n+1))::after{
+    content:""; 
+    border:1px solid #000000;
+    border-width: 1.5px 1.5px 0 0;
+    position:absolute; 
+    right:-3px; 
+    top:0; 
+    height:100%;
+  }
+
+.nav-bar ul li a {
+    color: white;
+    padding: 0px 32px 0px 32px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .5s;
+    z-index: 9;
+}
+
+.nav-bar ul li a.selected {
+    color: black;
+    transition: 0.25s ease;
+}
+
+.nav-bar ul li a:hover {
+    color: black;
+    transition: 0.25s ease;
+}
+
+/* main nav styles end */
+
+.main {
+    margin: auto;
+    padding-bottom: 70px;
+    width: 850px;
+}
+
+.white_bg {
+    background-color: white;
+    margin: auto;
+    padding-bottom: 100px;
+    width: 850px;
+    margin-bottom: 50px;
+}
+
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+    text-align: center;
+    line-height: 42px;
+    font-size: 35px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 550, 'wdth' 100;
+    padding: 10px;
+    color: rgb(234, 110, 150);
+}
+
+.intro-text {
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 67%;
+    color: rgb(234, 110, 150);
+}
+
+.intro-text p {
+    margin-bottom: 20px;
+}
+
+.about {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 67%;
+    padding: 40px;
+}
+ 
+/* button styles */
+
+.button-desktop {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.button {
+    margin: auto;
+    width: 75%;
+}
+  .pink {
+    background-color: rgb(234, 110, 150);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-family: "fredoka-variable",sans-serif;
+    font-variation-settings: 'wght' 450, 'wdth' 100;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    display: block;
+    transition: 0.25s ease;
+  }
+
+  .pink:hover{
+    background-color: black;
+    transition: 0.25s ease;
+  }
+
+  footer {
+    text-align: center;
+    margin: auto 0;
+    margin-bottom: 40px;
+  }
+
+/* styles for character page */
+
+.characters-mobile {
+    display: none;
+}
+
+table {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.heart-button-left {
+    position: relative;
+}
+
+.heart-button-right {
+    position: relative;
+}
+
+.heart-button-left img {
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    bottom: 10px;
+}
+
+.heart-button-right img {
+    position: absolute;
+    width: 150px;
+    left: 137px;
+    bottom: 10px;
+}
+
+.character img {
+    position: relative;
+    width: 280px;
+}
+
+.textbox {
+    border-radius: 10px;
+    padding: 15px 35px 15px 35px;
+    width: 300px; 
+}
+
+.textbox h1 {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.left {
+    text-align: left;
+}
+
+.left h1 {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.right h1 {
+    text-align: right;
+}
+
+.mia {
+    background-color: rgb(243, 168, 187);
+}
+
+.chelsea {
+    background-color: rgb(186, 226, 240);
+}
+
+.rico {
+    background-color: rgb(252, 212, 117);
+}
+
+.layla {
+    background-color: rgb(187, 179, 216);
+}
+
+.emma {
+    background-color: rgb(214, 233, 195);
+}
+
+
+
+
+/* styles for songs page */
+
+.discography {
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.discography td {
+    margin: 0;
+    padding: 10px;
+}
+
+tr .title {
+    text-align: center;
+    background-color: rgb(250, 219, 229);
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+/* styles for merch and media page */
+
+.caption {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.media {
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse; 
+    border-spacing: 2em;
+    vertical-align: top;
+    width: 75%;
+}
+
+.media td {
+    padding-top: 20px;
+}
+
+.media h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .main {
+        padding-bottom: 0px;
+    }
+
+    header {
+        padding-top: 10px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar.show {
+        font-size: 100px;
+        color: rgb(234, 110, 150);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar.show a {
+        margin: auto 0;
+        font-size: 55px;
+        padding: 20px;
+        color: rgb(234, 110, 150);
+        text-decoration: underline;
+    }
+
+    .nav-bar.show ul li {
+        display: block;
+        text-align: center;
+        margin: 40px;
+    }
+
+    ul li:not(:nth-last-child(-n+1))::after{
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: inline-block;
+        text-align: right;
+        padding-top: 15px;
+    }
+
+    header {
+        background-color: white;
+    }
+
+    img {
+        padding-top: 10px;
+    }
+
+    h1 {
+        margin: 60px;
+        font-size: 80px;
+        line-height: 110px;
+    }
+
+    body {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .divider {
+        padding-top: 100px;
+    }
+
+    .intro-text {
+        margin-bottom: 100px;
+        width: 80%;
+    }
+
+    .about {
+        width: 90%;
+        padding: 50px;
+    }
+
+    .pink {
+        background-color: rgb(234, 110, 150);
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 40px 60px;
+        font-size: 40px;
+        font-family: "fredoka-variable",sans-serif;
+        font-variation-settings: 'wght' 450, 'wdth' 100;
+        color: #ffffff;
+        border-radius: 10px;
+        border: none;
+        text-decoration: none;
+        display: block; 
+        transition: 0.25s ease;
+      }
+
+    .button-mobile {
+        display: contents;
+    }
+    
+    body {
+        background-color: white;
+    }
+
+    .characters-desktop {
+        display: none;
+    }
+
+    .characters-mobile {
+        display: contents;
+    }
+
+    .characters-mobile div {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+table {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.heart-button-left {
+    position: relative;
+}
+
+.heart-button-right {
+    position: relative;
+}
+
+.heart-button-left img {
+    position: absolute;
+    width: 270px;
+    left: 0px;
+    bottom: 10px;
+}
+
+.heart-button-right img {
+    position: absolute;
+    width: 270px;
+    left: 332px;
+    bottom: 10px;
+}
+
+.character img {
+    position: relative;
+    width: 600px;
+}
+
+.textbox {
+    border-radius: 10px;
+    padding: 15px 35px 15px 35px;
+    width: auto;
+    text-align: center;
+}
+
+.textbox h1 {
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/37866a5187.js" crossorigin="anonymous"></script>
+	<title>Beatcats</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://use.typekit.net/kpc1jiy.css">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<header>
+   
+    <a href="index.html" id="btn_logo"><img src="images/logo.png" alt="Beatcats Logo"></a>
+
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+    </div>
+
+    <div class="nav-bar">
+        <ul>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="characters.html" title="Characters">Characters</a></li>
+            <li><a href="songs.html" title="Songs">Songs</a></li>
+            <li><a href="merchandise.html" title="Merchandise">Merchandise</a></li>
+            <li><a href="media.html" title="Media">Media</a></li>
+        </ul>
+    </div>
+
+</header>
+
+<body>
+<div class="main">
+<div class="white_bg">
+
+        <h1 style="margin: 0px; padding-top: 80px;">
+            Character Profiles
+        </h1>
+        <div class="intro-text">
+            <p>
+                The Beatcats are a group of five adorable singing kittens who just so happen to also be vampires that feast on the colours of their fan's excited hearts when they sing.
+            </p>    
+        </div>
+
+    <div class="characters-desktop">
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-left">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-mia.png" id="mia-switch" onclick="toggleChangeMia()">
+                    <script>
+                        function toggleChangeMia() {
+                            var imgElement = document.getElementById('mia-switch');
+                
+                            if (imgElement.src.includes("sub-beatcats-mia")) {
+                                imgElement.src = "images/vamp-beatcats-mia.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-mia.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+
+                    <th>
+                        <div class="textbox left mia">
+                            <h1>MIA</h1>
+                            <p>
+                               The pink Beatcat, and lead vocalist, Mia enjoys watching romcoms and girl's whose hearts are pounding, which gives her wild ideas. She has a hot and cold personality.
+                            </p>
+                      </div>
+                    </th>
+
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th>
+                        <div class="textbox right chelsea">
+                            <h1>CHELSEA</h1>
+                            <p>
+                                The blue Beatcat, Chelsea enjoys electronics and VOCALOID music. Her comments can sometimes come off quite harsh, but they're usually well meaning.
+                      </div>
+                    </th>
+
+                    <th class="heart-button-right">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-chelsea.png" id="chelsea-switch" onclick="toggleChangeChelsea()">
+                    <script>
+                        function toggleChangeChelsea() {
+                            var imgElement = document.getElementById('chelsea-switch');
+                
+                            if (imgElement.src.includes("sub-beatcats-chelsea")) {
+                                imgElement.src = "images/vamp-beatcats-chelsea.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-chelsea.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-left">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-rico.png" id="rico-switch" onclick="toggleChangeRico()">
+                    <script>
+                        function toggleChangeRico() {
+                            var imgElement = document.getElementById('rico-switch');
+                
+                            if (imgElement.src.includes("sub-beatcats-rico")) {
+                                imgElement.src = "images/vamp-beatcats-rico.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-rico.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+
+                    <th>
+                        <div class="textbox left rico">
+                            <h1>RICO</h1>
+                            <p>
+                                The yellow Beatcat, Rico is not only a vampire like the others, but also a zombie. She is full of energy and enjoys dancing, running and exercise.
+                            </p>
+                      </div>
+                    </th>
+
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th>
+                        <div class="textbox right layla">
+                            <h1>LAYLA</h1>
+                            <p>
+                                The purple Beatcat, Layla is always wearing headphones and in her own little world, tending to block out what's going on around her. Layla will sometimes perform raps on the songs.                         
+                            </p>
+                    </th>
+
+                    <th class="heart-button-right">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-layla.png" id="layla-switch" onclick="toggleChangeLayla()">
+                    <script>
+                        function toggleChangeLayla() {
+                            var imgElement = document.getElementById('layla-switch');
+                
+                            if (imgElement.src.includes("sub-beatcats-layla")) {
+                                imgElement.src = "images/vamp-beatcats-layla.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-layla.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-left">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-emma.png" id="emma-switch" onclick="toggleChangeEmma()">
+                    <script>
+                        function toggleChangeEmma() {
+                            var imgElement = document.getElementById('emma-switch');
+                
+                            if (imgElement.src.includes("sub-beatcats-emma")) {
+                                imgElement.src = "images/vamp-beatcats-emma.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-emma.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+
+                    <th>
+                        <div class="textbox left emma">
+                            <h1>EMMA</h1>
+                            <p>
+                                The green Beatcat, Emma is described by others as an airhead, something she doesn't agree with. She enjoys long baths and is able to dance elegantly.
+                            </p>
+                      </div>
+                    </th>
+
+                </tr>
+            </table>
+        </div>
+            
+    </div>
+    
+    <div class="characters-mobile">
+        
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-left">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-mia.png" id="mia-switch2" onclick="toggleChangeMia2()">
+                    <script>
+                        function toggleChangeMia2() {
+                            var imgElement = document.getElementById('mia-switch2');
+                
+                            if (imgElement.src.includes("sub-beatcats-mia")) {
+                                imgElement.src = "images/vamp-beatcats-mia.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-mia.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <div class="textbox left mia">
+                            <h1>MIA</h1>
+                            <p>
+                               The pink Beatcat, and lead vocalist, Mia enjoys watching romcoms and girl's whose hearts are pounding, which gives her wild ideas. She has a hot and cold personality.
+                            </p>
+                      </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-right">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-chelsea.png" id="chelsea-switch2" onclick="toggleChangeChelsea2()">
+                    <script>
+                        function toggleChangeChelsea2() {
+                            var imgElement = document.getElementById('chelsea-switch2');
+                
+                            if (imgElement.src.includes("sub-beatcats-chelsea")) {
+                                imgElement.src = "images/vamp-beatcats-chelsea.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-chelsea.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <div class="textbox left chelsea">
+                            <h1>CHELSEA</h1>
+                            <p>
+                                The blue Beatcat, Chelsea enjoys electronics and VOCALOID music. Her comments can sometimes come off quite harsh, but they're usually well meaning.
+                      </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-left">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-rico.png" id="rico-switch2" onclick="toggleChangeRico2()">
+                    <script>
+                        function toggleChangeRico2() {
+                            var imgElement = document.getElementById('rico-switch2');
+                
+                            if (imgElement.src.includes("sub-beatcats-rico")) {
+                                imgElement.src = "images/vamp-beatcats-rico.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-rico.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <div class="textbox left rico">
+                            <h1>RICO</h1>
+                            <p>
+                                The yellow Beatcat, Rico is not only a vampire like the others, but also a zombie. She is full of energy and enjoys dancing, running and exercise.
+                      </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-right">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-layla.png" id="layla-switch2" onclick="toggleChangeLayla2()">
+                    <script>
+                        function toggleChangeLayla2() {
+                            var imgElement = document.getElementById('layla-switch2');
+                
+                            if (imgElement.src.includes("sub-beatcats-layla")) {
+                                imgElement.src = "images/vamp-beatcats-layla.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-layla.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <div class="textbox left layla">
+                            <h1>LAYLA</h1>
+                            <p>
+                                The purple Beatcat, Layla is always wearing headphones and in her own little world, tending to block out what's going on around her. Layla will sometimes perform raps on the songs.
+                      </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr class="profile">
+
+                    <th class="heart-button-left">
+                    <div>
+                        <img src="images/heart-button.png" alt="Heart-shaped change button">
+                    </div>
+                    </th>
+
+                    <th>
+                    <div class="character">
+                    <img src="images/sub-beatcats-emma.png" id="emma-switch2" onclick="toggleChangeEmma2()">
+                    <script>
+                        function toggleChangeEmma2() {
+                            var imgElement = document.getElementById('emma-switch2');
+                
+                            if (imgElement.src.includes("sub-beatcats-emma")) {
+                                imgElement.src = "images/vamp-beatcats-emma.png";
+                            } else {
+                                imgElement.src = "images/sub-beatcats-emma.png";
+                            }
+                        }
+                    </script>
+                    </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <div class="textbox left emma">
+                            <h1>EMMA</h1>
+                            <p>
+                                The green Beatcat, Emma is described by others as an airhead, something she doesn't agree with. She enjoys long baths and is able to dance elegantly.
+                      </div>
+
+                    </th>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+
+    
+</div>
+
+    <footer>
+        Copyright© 2024
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-bar').classList.toggle('show');
+        }
+    </script>
+    </div>
+</body>
+
+</html>
